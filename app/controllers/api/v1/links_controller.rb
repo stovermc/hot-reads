@@ -13,7 +13,7 @@ class Api::V1::LinksController < ApplicationController
 
     def create_or_count(link)
       if link.nil?
-        new_hot_read = HotRead.create(url: link_params, count: 1)
+        new_hot_read = HotRead.create(url: link_params[:url], count: 1)
         render json: HotRead.get_top_ten
       else
         add_count = link.count + 1
