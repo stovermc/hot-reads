@@ -4,11 +4,14 @@
 
 This application tracks the 'hottest' links from the application [URL-Lock-box](https://stover-m4-final.herokuapp.com/)
 This project was built using:
+
 `Ruby 2.3.0`
 `Rails 5.0.0.1`
 
 Production Site: https://stover-hotreads.herokuapp.com/
+
 UL-Lock Box repo: https://github.com/stovermc/m4-final-starter
+
 URL-Lock Box Produciton Site: https://stover-hotreads.herokuapp.com/
 
 ### Setup
@@ -19,6 +22,6 @@ URL-Lock Box Produciton Site: https://stover-hotreads.herokuapp.com/
   * `rspec`
 
 ### API
-This application has 1 enpoint
+This application has 1 enpoint.
 
 POST `api/v1/links` this creates a new Hot-Read if this the url doesnt already exist in the database. If it already exists, a count of one is added to it. 
