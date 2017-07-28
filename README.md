@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##Hot Reads
 
-Things you may want to cover:
+This application tracks the 'hottest' links from the application [URL-Lock-box](https://stover-m4-final.herokuapp.com/)
+This project was built using:
+`Ruby 2.3.0`
+`Rails 5.0.0.1`
 
-* Ruby version
+Production Site: https://stover-hotreads.herokuapp.com/
+UL-Lock Box repo: https://github.com/stovermc/m4-final-starter
+URL-Lock Box Produciton Site: https://stover-hotreads.herokuapp.com/
 
-* System dependencies
+### Setup
+1. clone this repo
+2. bundle
+3. From the command line run:
+  * `rake db:setup`
+  * `rspec`
 
-* Configuration
+### API
+This application has 1 enpoint
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+POST `api/v1/links` this creates a new Hot-Read if this the url doesnt already exist in the database. If it already exists, a count of one is added to it. 
