@@ -10,7 +10,7 @@ This project was built using:
 
 Production Site: https://stover-hotreads.herokuapp.com/
 
-UL-Lock Box repo: https://github.com/stovermc/m4-final-starter
+URL-Lock Box repo: https://github.com/stovermc/m4-final-starter
 
 URL-Lock Box Produciton Site: https://stover-hotreads.herokuapp.com/
 
