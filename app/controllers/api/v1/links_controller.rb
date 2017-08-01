@@ -1,6 +1,10 @@
 class Api::V1::LinksController < ApplicationController
   skip_before_action :verify_authenticity_token
 
+  def index
+    render json: HotRead.get_top_ten
+  end
+
   def create
     @link = HotRead.find_by(link_params)
     create_or_count(@link)
